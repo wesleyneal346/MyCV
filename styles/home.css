@@ -1,0 +1,166 @@
+/* Synopsis of me */
+/* CSS Style Sheet for my awesome Website */
+
+/* The Profile section of the document. It shows my Profile Picture as a circle image and displays my name in
+   a rounded bubble bullet form */
+.profile {
+	margin: 80px auto;
+	width: 1349px;
+	background-color: #77D7D3;	
+	border-radius: 238px;
+	box-shadow: 3px 3px 10px #888;
+}
+
+.profile .name {
+	padding: 168px 0;
+}
+
+.profile h1{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lalezar', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	color: #007975;
+	}
+
+.profile h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Special Elite', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #007975;
+}
+
+/* This section provides structure for interactive links to various parts in the website. Pictures are shown
+   in circle form  and links are shown in  rounded bullets. */
+.items {
+	margin: 0 auto 450px auto;
+	width: 1349px;
+	height: 30px;
+  box-sizing: border-box;
+	display: block;
+	background: #77D7D3;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px #888;
+}
+
+.item {
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 33%;
+}
+
+.item a {
+	text-decoration: none;
+}
+
+.item h2:hover {
+	color: #C75901;
+	background-color: #FFC08D;
+}
+
+.item h2 {
+	margin: auto;
+	padding: 0;
+	background-color: #77D7D3;
+	color: #007975;
+  font-family: 'Play', sans-serif;
+	border-radius: 20px 20px 0 0;
+	box-shadow: 0px 8px 5px #888;
+}
+
+.item p {
+	margin: auto;
+	display: block;
+	font-size: 1.2em;
+	font-family: 'Baloo', sans-serif;
+	color: #4D6868;
+	background-color: #fff;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 0px 8px 5px #888;
+}
+
+/* This section provides links to various parts of the website and gives varying structure for the brief 
+   explanations. */
+.sec {
+	margin: 100px auto;
+	width: 1349px;
+	display: box;
+	background-size: cover;
+	border-radius: 15px;
+	text-align: center;
+	box-shadow: 2px 2px 10px #000;
+}
+
+.sec-item {
+	width: 50%;
+}
+
+.sec-item h1 {
+	margin: 100px 0 30px 0;
+	font-family: 'Baloo', sans-serif;
+	text-transform: uppercase;
+	color: #29ABA6;
+	font-size: 4em;
+	text-shadow: 3px 3px 10px #000;
+}
+
+.sec p {
+	padding: 20px;
+	background: rgba(41, 171, 166, 0.5);
+	font-family: 'Play', sans-serif;
+	font-size: 1.6em;
+	color: #fff;
+	text-shadow: 2px 2px 1px #000;
+}
+
+.sec a {
+	padding: 0 15px;
+	text-decoration: none;
+	font-family: 'Play', sans-serif;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: rgba( 58,  99, 184, 0.7);
+	border-radius: 15px;
+	text-shadow: 2px 2px 10px #000;
+}
+
+.sec a:hover {
+	color: #fff;
+	background-color: rgba(255, 147,  61, 1);
+}
+
+/* Specific items for each */
+#exp {
+	background: url(vista.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#edu {
+	background: url(Old_Main.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#exp .sec-item {
+	float: left;
+}
+
+#edu .sec-item {
+	float: right;
+}
+
+#exp p{
+	border-radius: 15px 0 0 15px;
+	text-align: right;
+}
+
+#edu p {
+	border-radius: 0 15px 15px 0;
+	text-align: left;
+}

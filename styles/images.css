@@ -1,0 +1,37 @@
+/* Profile img and other images */
+/* CSS Style Sheet for my awesome Website*/
+
+img {
+	box-shadow: 3px 3px 10px #888;
+	border-radius: 50%;
+}
+
+img:hover{
+	filter: sepia(70%);
+}
+
+.contact-info img {
+	box-shadow: none;
+	display: block;
+	float: right;
+	width: 80%;
+	margin: 10% 0;
+	filter: grayscale(75%);
+}
+
+.contact-info img:hover {
+	filter: none;
+}
+
+.profile img {
+	box-shadow: none;
+	height: 35%;
+	width: 35%;
+	display: block;
+	float: left;
+}
+
+.item img {
+	margin: 50px 0 20px 0;
+	width: 50%;
+}
